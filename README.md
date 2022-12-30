@@ -13,7 +13,15 @@ measurements from a small collection of buildings. Used Hadoop to find
 
 Steps:
 Part 1: Create an account for Google Cloud Platform
+
 Part 2: Create an Ubuntu 18.04 VM instance from Google Cloud Platform
+
 Part 3: Install/Configure Hadoop on GCP Ubuntu 18.04 Server
+
 Part 4: Initialize and boot Hadoop
+
 Part 5: Analyze HVAC dataset (python)
+Using Python, two separate Map/Reduce programs using Hadoop 2.10.1 are written on
+GCP to compute the following using the sample HVAC data. Ran the
+programs via Hadoop 2.10.1 pseudo-distributed mode on an GCP instance. No “add-on” used to
+Hadoop (such as Hive). The great majority of the data processing is performed within Hadoop.
